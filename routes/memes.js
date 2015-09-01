@@ -17,4 +17,5 @@ router.get('/', function(req, res, next) {
         //res.render(JSON.parse(data));
         res.render('memes', {memeobj: memes, messagesobj: messages});
 });
+
 module.exports = router;
