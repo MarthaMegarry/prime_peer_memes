@@ -11,4 +11,8 @@ ul
                 img(src=object.url)
                 p= messagesobj[index].message
 
-
+                block content
+                div#bucket
+                    form
+                        input#message(name='message', type='text')
+                        input(type='submit', value='Post meme message')
